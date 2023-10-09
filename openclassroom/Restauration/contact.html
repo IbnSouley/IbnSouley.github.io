@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Le Restaurant........">
+    <meta name="keywords" content="Restaurant BDS">
+    <link rel="stylesheet" href="style.css">
+    <title>Nous contacter</title>
+</head>
+<body>
+    <nav>
+        <ul class="bar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <legend>Nous contacter</legend>
+            <div class="cont">
+                <label for="emailinput">Votre email :</label>
+                <input type="text" name="email" id="emailinput">
+            </div>
+            <div class="cont">
+                <label for="nameinput">Votre nom :</label>
+                <input type="text" name="firstname" id="nameinput">
+            </div>
+            <div class="cont">
+                <label for="prenominput">Votre prénom :</label>
+                <input type="text" name="secondname" id="prenominput">
+            </div>
+            <div class="cont">
+                <label for="telinput">Téléphone :</label>
+                <input type="tel" name="téléphone" id="telinput">
+            </div>
+            <label class="cont">Sexe</label>
+            <div class="cont">
+                <input type="radio" name="sexe" id="masculin" checked>
+                <label for="masculin">Masculin</label>
+            </div>
+            <div class="cont">
+                <input type="radio" name="sexe" id="feminin">
+                <label for="feminin">Feminin</label>
+            </div>
+            <div class="cont">
+                <label for="check"><input type="checkbox" name="cgu" id="check" checked>J'accepte les conditions d'utilisations</label>
+            </div>
+            <div class="cont">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
